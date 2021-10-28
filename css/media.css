@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+    .header__nav_img {
+        margin: 30px 50px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .header__nav_img {
+        margin: 30px 10px;
+    }
+}
+@media screen and (max-width: 996px) {
+    .header__contact {
+        display: none;
+    }
+    .header__main {
+        display: flex;
+        justify-content: center;
+    }
+    .header__nav_img {
+        margin-right: 150px;
+    }
+    .header__cart {
+        display: none;
+}
+    .section_2__main {
+        display: flex;
+        justify-content: center;
+    }
+    .section_2__blocks {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .text {
+            font-size: 50px;
+            margin-left: 0;
+        }
+        .section_1__home_buttom_home {
+            display: flex;
+            justify-content: center;
+            margin-left: 0;
+        }
+        .section_1 {
+            justify-content: center;
+        }
+        .section_home {
+            margin-left: 0;
+        }
+        .header__nav_img {
+            margin: 30px 40px;
+        }
+    }
+    @media screen and (max-width: 568px) {
+        .header__main {
+            display: flex;
+            justify-content: left;
+            width: auto;
+            height: auto;
+        }
+        .nav__main {
+            display: none;
+        }
+        .burger {
+            display: flex;
+            justify-content: right;
+            position: relative;
+            top: -70px;
+            right: 30px
+        }
+        .burger_img {
+            display: flex;
+            position: relative;
+            z-index: 1;
+            margin-left: 100%;
+        }
+        .text {
+            font-size: 30px;
+            margin-left: 0;
+        }
+        .section_1_home_text {
+            font-size: 12px;
+        }
+        .section_1__line {
+            height: 1px;
+            width: 40px;
+        }
+        .main_block {
+            width: 300px;
+        }
+    }
+}
